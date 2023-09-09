@@ -1,8 +1,8 @@
 import React from 'react'
-
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 const Navbar = () => {
   return (
-    <div className="navbar  bg-white text-neutral-content flex justify-around items-center">
+    <nav className="navbar  bg-white text-neutral-content flex justify-around items-center">
  <div>
  <a className=" text-black normal-case text-xl">daisyUI</a>
  </div>
@@ -18,10 +18,10 @@ const Navbar = () => {
 <div>
     <ul className='flex justify-center items-center text-black gap-5'>
         <li>asdf</li>
-        <li>sadfsdaf</li>
+        <li><AiOutlineShoppingCart className='text-xl'/></li>
     </ul>
 </div>
-  </div>
+  </nav>
   )
 }
 
