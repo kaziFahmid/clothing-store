@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.one:hover span:last-child {
+    width: 100%;
+   transition: all 0.7s;
+  }
+  
+  .two:hover span {
+    width: 50%;
+  }
+  
+  .three:hover span {
+    height: 100%;
+  }
+  
