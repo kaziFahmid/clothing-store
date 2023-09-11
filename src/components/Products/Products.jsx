@@ -3,7 +3,10 @@ import React from 'react'
 import Title from '../Title/Title'
 import ProductCard from './ProductCard/ProductCard'
 
-const Products = () => {
+const Products =async () => {
+ const response = await fetch('https://clothing-store-pearl.vercel.app/api/products',{cache:"no-store"});
+    const products = await response.json();
+    console.log(products)
   return (
     
     <section className='mt-32'>

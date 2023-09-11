@@ -16,7 +16,7 @@ const Gallery = () => {
   return (
     <section className="mt-32">
       <div className="text-center ">
-        <h6 className="font-semibold mb-3">LET'S SEE</h6>
+        <h6 className="font-semibold mb-3">LET&#39;S SEE</h6>
         <h1 className="font-thin text-black text-6xl">
           GALLERY OF THE VogueFusion
         </h1>
