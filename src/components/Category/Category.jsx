@@ -18,7 +18,7 @@ const Category = () => {
   return (
     <>
  <section className="mt-28">
-    <div  data-aos="fade-down"> <Title  data-aos="fade-down" title="All Categories" /></div>
+    <div  data-aos="fade-down"> <Title  data-aos="fade-down" title="ALL CATEGORIES" /></div>
  
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 mt-6 max-w-6xl    mx-auto ">
         <div className="    h-fit  group cursor-pointer">
